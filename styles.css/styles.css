@@ -1,0 +1,156 @@
+body {
+  font-family: 'Yantramanav', sans-serif;
+  margin: 0; }
+
+nav {
+  background: #58c2e8;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+nav a {
+  color: white;
+  text-decoration: none; }
+
+nav a:hover {
+  color: #FF7A00;
+  letter-spacing: 0.1em; }
+
+header {
+  background-image: url("images/jacky-landscape-photography.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 12%;
+  text-align: center;
+  position: relative; }
+
+header h1 {
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 0; }
+
+header span {
+  color: #fdf210; }
+
+header p {
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 11%; }
+
+header .jackie {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 83%; }
+
+header .jackie img {
+  border-radius: 50%;
+  border: solid 9px rgba(240, 245, 247, 0.25); }
+
+.skills-section {
+  padding: 15% 0;
+  background: #282e3a; }
+
+.skills-section .flex-parent {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-flow: wrap; }
+
+.skills-section .flex-parent p {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.1em; }
+
+.skills-section .flex-parent h2, .skills-section .flex-parent i {
+  color: #fdf210;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.skills-section .flex-parent .flex-child-1 {
+  flex: 1;
+  margin: 0px 100px; }
+
+.skills-section .flex-parent .flex-child-2 {
+  flex: 1;
+  margin: 0px 100px; }
+
+.forest, .berries, .waterfall, .nature {
+  background-image: url("images/forest-photography.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10%; }
+
+.berries {
+  background-image: url("images/raspberries-photography.jpg"); }
+
+.waterfall {
+  background-image: url("images/waterfall-photography.jpg"); }
+
+.nature {
+  background-image: url("images/nature-photography.jpg"); }
+
+.blog-header {
+  background: #282e3a;
+  margin: 0;
+  padding: 6% 0;
+  color: #fdf210;
+  text-align: center;
+  letter-spacing: 0.1em; }
+
+.blog-header h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em; }
+
+.blog-body {
+  text-align: center;
+  position: relative; }
+
+.blog-body p {
+  margin: 4%;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em; }
+
+.blog-body span {
+  color: #58c2e8;
+  margin-right: 3%; }
+
+.blog-body .blog-link {
+  position: absolute;
+  bottom: -57px;
+  min-width: 100%;
+  background: rgba(41, 47, 59, 0.87);
+  padding: 3% 0; }
+
+.blog-body .blog-link a {
+  color: #fdf210;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-size: 1.3rem; }
+
+footer {
+  background: #282e3a;
+  text-align: center;
+  padding: 4% 0; }
+
+footer h2 {
+  color: #fdf210;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+footer i {
+  color: white;
+  margin: 2%; }

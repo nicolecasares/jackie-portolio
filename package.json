@@ -1,0 +1,15 @@
+{
+  "name": "jackie",
+  "version": "1.0.0",
+  "description": "jackie portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicole casares",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,224 @@
+body{
+	// font-family: 'Montserrat', sans-serif;
+	font-family: 'Yantramanav', sans-serif;
+	margin: 0;
+}
+
+$primary-color: #58c2e8;
+$secondary-color: #282e3a;
+$yellow-font: #fdf210;
+$padding: 2px;
+$all-cap: uppercase;
+$letter-spacing: .1em; 
+
+nav{
+	background: $primary-color;
+	text-align: center;
+	padding: 20px 0;
+	text-transform: $all-cap;
+	font-weight: 300;
+
+	a{
+		color: white;
+		text-decoration: none;
+		&:hover {
+    	color: #FF7A00;
+    	letter-spacing: $letter-spacing;
+  		}
+
+	}
+}
+
+header{
+	background-image: url('images/jacky-landscape-photography.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    text-align: center;
+    padding: 12%;
+    text-align: center;
+    position: relative;
+
+    h1{
+    	font-size: 4em;
+    	font-weight: 300;
+    	letter-spacing: $letter-spacing;
+    	margin-bottom: 0;
+    }
+
+    span{
+    	color: $yellow-font;
+    }
+
+    p{
+    	font-weight: 300;
+    	letter-spacing: $letter-spacing;
+    	margin-bottom: 11%;
+    	// margin-top: -5%;
+    }
+
+    .jackie{
+    	position: absolute;
+    	// left: 50;
+    	// left: 40%;
+    	// top: 80%;
+    	left: 50%;
+    	margin-left: -100px;
+    	top: 83%;
+    	
+
+    	img{
+    		border-radius: 50%;
+    		border: solid 9px rgba(240, 245, 247, 0.25)
+    	}
+    }
+
+}
+
+
+
+
+.skills-section{
+
+	padding: 15% 0;
+	background: $secondary-color;
+
+		.flex-parent{
+		    display: flex;
+		    // flex-flow: row wrap;
+		    width: 70%;
+		    margin: auto;
+		    flex-flow: wrap;
+
+		    p{
+		    	color: white;
+		    	font-weight: 300;
+		    	letter-spacing: $letter-spacing;
+		    }
+
+		    h2, i{
+		    	color: $yellow-font;
+		    	font-weight: 300;
+		    	text-transform: $all-cap;
+		    	letter-spacing: $letter-spacing;
+		    }
+
+		    .flex-child-1{
+		    	flex: 1;
+		    	margin: 0px 100px;
+
+		    }
+
+		    .flex-child-2{
+		    	flex: 1;
+		    	margin: 0px 100px;
+		    }
+
+
+		 }
+	
+
+}
+
+.forest{
+	background-image: url('images/forest-photography.jpg');
+	background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+.berries {
+	@extend .forest;
+	background-image: url('images/raspberries-photography.jpg');
+}
+
+.waterfall{
+	@extend .forest;
+	background-image: url('images/waterfall-photography.jpg');
+
+}
+
+.nature{
+	@extend .forest;
+	background-image: url('images/nature-photography.jpg');
+}
+
+.blog-header{
+	background: $secondary-color;
+	margin: 0;
+	padding: 6% 0;
+	color: $yellow-font;
+	text-align: center;
+	letter-spacing: $letter-spacing;
+	
+	h2{
+	text-transform: $all-cap;
+	font-weight: 300;
+	letter-spacing: $letter-spacing;
+	}
+}
+
+.blog-body {
+	text-align: center;
+	position: relative;
+
+	p{
+		margin: 4% ;
+		font-size: 1.3rem;
+		text-transform: $all-cap;
+		font-weight: 300;
+		letter-spacing: $letter-spacing;
+	}
+
+	span{
+		color: $primary-color;
+		margin-right: 3%;
+
+	}
+	.blog-link{
+	position: absolute;
+	bottom: -57px;
+	min-width: 100%;
+	background: rgba(41, 47, 59, 0.87);
+	padding: 3% 0;
+		a{
+			color: $yellow-font;
+			text-decoration: none;
+			text-transform: $all-cap;
+			font-weight: 300;
+			letter-spacing: $letter-spacing;
+			font-size: 1.3rem;
+		}
+}
+}
+
+
+
+
+footer{
+	background: $secondary-color;
+	text-align: center;
+	padding: 4% 0;
+
+	h2{
+		color: $yellow-font;
+		font-weight: 300;
+		text-transform: $all-cap;
+		letter-spacing: $letter-spacing;
+	
+		
+	}
+
+	i{
+		color: white;
+		margin: 2%;
+	}
+}
+
+
+
+
+
