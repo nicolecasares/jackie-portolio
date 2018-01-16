@@ -121,6 +121,10 @@ header{
 
 }
 
+.name-of-project{
+	visibility: hidden;
+}
+
 .forest{
 	background-image: url('images/forest-photography.jpg');
 	background-repeat: no-repeat;
@@ -128,6 +132,8 @@ header{
     background-position: center;
     background-size: cover;
     padding: 10%;
+    color: white;
+    font-size: 40px;
 }
 
 .berries {
