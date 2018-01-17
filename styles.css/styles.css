@@ -73,6 +73,13 @@ header .jackie img {
   text-transform: uppercase;
   letter-spacing: 0.1em; }
 
+.skills-section .flex-parent #first-child {
+  margin-top: 100px; }
+
+@media only screen and (min-width: 700px) {
+  .skills-section .flex-parent #first-child {
+    margin-top: 0; } }
+
 .skills-section .flex-parent .flex-child-1 {
   flex: 1;
   margin: 0px 100px; }

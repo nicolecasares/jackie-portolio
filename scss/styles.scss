@@ -104,6 +104,18 @@ header{
 		    	letter-spacing: $letter-spacing;
 		    }
 
+		    #first-child{
+		    	margin-top: 100px;
+		    }
+
+		    	@media only screen and (min-width: 700px) {
+    
+    				#first-child {
+     					margin-top: 0;
+
+				    }
+				}
+
 		    .flex-child-1{
 		    	flex: 1;
 		    	margin: 0px 100px;
