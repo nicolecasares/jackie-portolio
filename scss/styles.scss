@@ -86,10 +86,12 @@ header{
 
 		.flex-parent{
 		    display: flex;
-		    // flex-flow: row wrap;
-		    width: 70%;
+		    flex-flow: row wrap;
+		    width: 108%;
 		    margin: auto;
-		    flex-flow: wrap;
+		    // flex-flow: wrap;
+
+   		
 
 		    p{
 		    	color: white;
@@ -109,11 +111,13 @@ header{
 		    }
 
 		    	@media only screen and (min-width: 700px) {
+
     
     				#first-child {
      					margin-top: 0;
-
+     					
 				    }
+
 				}
 
 		    .flex-child-1{
@@ -128,7 +132,15 @@ header{
 		    }
 
 
-		 }
+
+		}
+
+		@media only screen and (min-width: 700px) {
+
+		    .flex-parent {
+				width: 70%;
+				}
+			} 
 	
 
 }

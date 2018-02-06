@@ -58,9 +58,9 @@ header .jackie img {
 
 .skills-section .flex-parent {
   display: flex;
-  width: 70%;
-  margin: auto;
-  flex-flow: wrap; }
+  flex-flow: row wrap;
+  width: 108%;
+  margin: auto; }
 
 .skills-section .flex-parent p {
   color: white;
@@ -87,6 +87,10 @@ header .jackie img {
 .skills-section .flex-parent .flex-child-2 {
   flex: 1;
   margin: 0px 100px; }
+
+@media only screen and (min-width: 700px) {
+  .skills-section .flex-parent {
+    width: 70%; } }
 
 .name-of-project {
   visibility: hidden; }
