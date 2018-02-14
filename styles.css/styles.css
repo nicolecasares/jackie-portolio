@@ -59,8 +59,9 @@ header .jackie img {
 .skills-section .flex-parent {
   display: flex;
   flex-flow: row wrap;
-  width: 108%;
-  margin: auto; }
+  width: 98%;
+  margin: auto;
+  margin-top: 58px; }
 
 .skills-section .flex-parent p {
   color: white;
@@ -73,16 +74,24 @@ header .jackie img {
   text-transform: uppercase;
   letter-spacing: 0.1em; }
 
+@media only screen and (min-width: 864px) {
+  .skills-section .flex-parent {
+    margin-top: 0; } }
+
 .skills-section .flex-parent #first-child {
   margin-top: 100px; }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 486px) {
   .skills-section .flex-parent #first-child {
     margin-top: 0; } }
 
 .skills-section .flex-parent .flex-child-1 {
   flex: 1;
-  margin: 0px 100px; }
+  margin: 0px 50px; }
+
+@media only screen and (min-width: 733px) {
+  .skills-section .flex-parent .flex-child-1 {
+    margin: 0px 100px; } }
 
 .skills-section .flex-parent .flex-child-2 {
   flex: 1;

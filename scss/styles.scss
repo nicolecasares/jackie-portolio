@@ -87,11 +87,12 @@ header{
 		.flex-parent{
 		    display: flex;
 		    flex-flow: row wrap;
-		    width: 108%;
+		    width: 98%;
 		    margin: auto;
+		    margin-top: 58px;
 		    // flex-flow: wrap;
 
-   		
+   			
 
 		    p{
 		    	color: white;
@@ -106,11 +107,15 @@ header{
 		    	letter-spacing: $letter-spacing;
 		    }
 
+		    	@media only screen and (min-width: 864px) {
+		    		margin-top: 0;
+		    	}
+
 		    #first-child{
 		    	margin-top: 100px;
 		    }
 
-		    	@media only screen and (min-width: 700px) {
+		    	@media only screen and (min-width: 486px) {
 
     
     				#first-child {
@@ -120,11 +125,19 @@ header{
 
 				}
 
-		    .flex-child-1{
+		    .flex-child-1 {
 		    	flex: 1;
-		    	margin: 0px 100px;
+		    	margin: 0px 50px;
 
 		    }
+		    	@media only screen and (min-width: 733px) {
+
+			    	.flex-child-1{
+			    	
+			    		margin: 0px 100px;
+
+			    	}
+			 	}
 
 		    .flex-child-2{
 		    	flex: 1;
