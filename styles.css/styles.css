@@ -1,3 +1,8 @@
+b* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
   font-family: 'Yantramanav', sans-serif;
   margin: 0; }
@@ -53,15 +58,15 @@ header .jackie img {
   border: solid 9px rgba(240, 245, 247, 0.25); }
 
 .skills-section {
-  padding: 15% 0;
+  padding: 20% 0;
   background: #282e3a; }
+
+.skills-section div:nth-child(1) {
+  margin-top: 14%; }
 
 .skills-section .flex-parent {
   display: flex;
-  flex-flow: row wrap;
-  width: 98%;
-  margin: auto;
-  margin-top: 58px; }
+  flex-direction: column; }
 
 .skills-section .flex-parent p {
   color: white;
@@ -78,28 +83,21 @@ header .jackie img {
   .skills-section .flex-parent {
     margin-top: 0; } }
 
-.skills-section .flex-parent #first-child {
-  margin-top: 100px; }
+.skills-section .flex-parent .flex-item {
+  margin: 2% 28%; }
 
-@media only screen and (min-width: 486px) {
-  .skills-section .flex-parent #first-child {
-    margin-top: 0; } }
+@media only screen and (min-width: 781px) {
+  .skills-section .flex-parent .flex-item {
+    justify-content: center;
+    flex-basis: 30%;
+    margin: 3% 4%; } }
 
-.skills-section .flex-parent .flex-child-1 {
-  flex: 1;
-  margin: 0px 50px; }
-
-@media only screen and (min-width: 733px) {
-  .skills-section .flex-parent .flex-child-1 {
-    margin: 0px 100px; } }
-
-.skills-section .flex-parent .flex-child-2 {
-  flex: 1;
-  margin: 0px 100px; }
-
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 781px) {
   .skills-section .flex-parent {
-    width: 70%; } }
+    justify-content: center;
+    flex-direction: row; }
+  .skills-section div:nth-child(1) {
+    margin-top: 0; } }
 
 .name-of-project {
   visibility: hidden; }
