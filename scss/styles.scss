@@ -1,3 +1,9 @@
+b*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body{
 	// font-family: 'Montserrat', sans-serif;
 	font-family: 'Yantramanav', sans-serif;
@@ -47,6 +53,7 @@ header{
     	margin-bottom: 0;
     }
 
+
     span{
     	color: $yellow-font;
     }
@@ -81,16 +88,23 @@ header{
 
 .skills-section{
 
-	padding: 15% 0;
+	padding: 20% 0;
 	background: $secondary-color;
+
+
+		div:nth-child(1){
+			margin-top: 14%;
+		}
+
 
 		.flex-parent{
 		    display: flex;
-		    flex-flow: row wrap;
-		    width: 98%;
-		    margin: auto;
-		    margin-top: 58px;
+		    // flex-flow: row wrap;
+		    // width: 98%;
+		    // margin: auto;
+		    // margin-top: 58px;
 		    // flex-flow: wrap;
+		    flex-direction: column;
 
    			
 
@@ -111,49 +125,37 @@ header{
 		    		margin-top: 0;
 		    	}
 
-		    #first-child{
-		    	margin-top: 100px;
+		    .flex-item{
+		    	margin: 2% 28%;
 		    }
 
-		    	@media only screen and (min-width: 486px) {
 
-    
-    				#first-child {
-     					margin-top: 0;
-     					
-				    }
 
-				}
+		    	@media only screen and (min-width: 781px) {
 
-		    .flex-child-1 {
-		    	flex: 1;
-		    	margin: 0px 50px;
-
-		    }
-		    	@media only screen and (min-width: 733px) {
-
-			    	.flex-child-1{
+			    	.flex-item{
+			    		justify-content: center;
+			    		flex-basis: 30%;
+			    		margin: 3% 4%;
+			    		}
 			    	
-			    		margin: 0px 100px;
-
-			    	}
 			 	}
-
-		    .flex-child-2{
-		    	flex: 1;
-		    	margin: 0px 100px;
-		    }
 
 
 
 		}
 
-		@media only screen and (min-width: 700px) {
+		@media only screen and (min-width: 781px) {
 
 		    .flex-parent {
-				width: 70%;
+				// width: 70%;
+				justify-content: center;
+				flex-direction: row;
 				}
-			} 
+			div:nth-child(1){
+				margin-top: 0;
+			}
+		} 
 	
 
 }
